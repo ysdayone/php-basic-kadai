@@ -22,8 +22,12 @@
     $score9 = 30;
     $score10 = 60;
 
+    // 合計点を計算する
+    $sum = $score1 + $score2 + $score3 + $score4 + $score5 + $score6 + $score7 + $score8 + $score9 + $score10;
+    // 平均点を計算する
+    $average = $sum / 10;
     // 平均点を計算し出力する
-    echo ($score1 + $score2 + $score3 + $score4 + $score5 + $score6 + $score7 + $score8 + $score9 + $score10) / 10;
+    echo $average;
     ?>
   </p>
 </body>
